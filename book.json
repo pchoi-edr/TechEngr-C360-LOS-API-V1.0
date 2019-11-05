@@ -1,0 +1,20 @@
+{
+    "plugins": ["highlight", "api", "theme-api", "theme-finsify-api"],
+    "pluginsConfig": {
+        "theme-api": {
+            "theme": "dark",
+            "languages": [
+		        {
+		          "lang": "js",          
+		          "name": "JavaScript",  
+		          "default": true        
+		        },
+		        {
+		          "lang": "go",
+		          "name": "Go"
+		        }
+		      ],
+            "split": true
+        }
+    }
+}
